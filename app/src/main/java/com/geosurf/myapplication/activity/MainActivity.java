@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        compareGLView = (CompareGLView2) findViewById(R.id.view1);
+//        compareGLView = (CompareGLView2) findViewById(R.id.view1);
 
         getFromAssets("out.csv");
         int num=mlist.size();
